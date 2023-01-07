@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp49
 {
+    delegate void Delegate(string s);
     internal class Hospital
     {
         private List<Patient>patients = new List<Patient>();
